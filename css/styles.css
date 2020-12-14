@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.wrap-main {
+    height: 40px;
+    background: #000;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px;
+}
+
+.wrap-main * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap-main .logo {
+    float: left;
+    display: block;
+}
+
+.wrap-main #form-search {
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    float: left;
+}
+
+.wrap-main #form-search input {
+    height: 24px;
+    border: none;
+}
+
+.wrap-main #form-search input:focus {
+    outline: none;
+}
+
+.wrap-main #form-search button {
+    background: none;
+    border: 0;
+}
+
+.wrap-main #form-search button:focus {
+    outline: none;
+}
+
+.wrap-main .wrap-location {
+    width: 120px;
+    float: left;
+    padding: 0;
+    clear: none;
+    overflow: visible;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.wrap-main .wrap-location span {
+    color: #fff;
+    display: block;
+    margin-bottom: -3px;
+    padding-top: 3px;
+}
+
+.wrap-main .wrap-location .location {
+    color: #ffe500;
+}
+
+.wrap-main .wrap-location .location::after {
+    content: "";
+    border-top: 5px solid #ffe500;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.wrap-main .menu-info {
+    width: auto;
+}
+
+.wrap-main .menu-info * {
+    color: white;
+    font-size: 12px;
+}
+
+.wrap-main .menu-info a {
+    width: 75px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-top: 6px;
+    height: 40px;
+    line-height: 1.3;
+}
+
+.wrap-main .menu-info a.cus-line-height {
+    line-height: 35px;
+}
+
+.wrap-main .menu-info a:hover {
+    background: white;
+    color: #333333;
+}
+
+.wrap-main .btn-cart {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 30px;
+    width: 97px;
+    border: 1px solid #8f8f8f;
+    border-radius: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wrap-main .btn-cart:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.wrap-main .btn-cart .icon-cart {
+    margin-right: 5px;
+}
+
+.wrap-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fed101;
+    height: 40px;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+.wrap-nav * {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.wrap-nav nav a {
+    padding: 0 12px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    white-space: nowrap;
+    color: #000;
+    text-transform: none;
+    font-size: 14px;
+    width: 80px;
+}
+
+.wrap-nav nav a * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wrap-nav nav a i {
+    margin: 0 5px 0;
+}
+
+.max-width {
+    max-width: 1200px;
+}
+
+.a2 {
+    text-transform: uppercase;
+}
